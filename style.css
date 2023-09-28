@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pixelify+Sans&family=Titillium+Web:wght@200&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    padding: 5px;
+    margin: 5px;
+}
+.navbar{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(63, 64, 146);
+}
+#disc{
+    background-color: rgb(191, 151, 249);
+}
+#disc a{
+    color:white
+}
+#yt{
+    background-color: rgb(240, 45, 45);
+}
+#yt a{
+    color:white
+}
+#github{
+    background-color: rgb(127, 255, 168);
+}
+#github a{
+    color:rgb(0, 0, 0)
+}
+#fb{
+    background-color: rgb(84, 167, 198);
+}
+#fb a{
+    color:white
+}
+#twitter{
+    background-color: rgb(97, 163, 255);
+}
+#twitter a{
+    color: white
+}
+.links{
+    border: 1px solid black;
+    display: inline;
+    font-family: Oswald;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.7;
+    transition: .4s;
+}
+.links:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: larger;
+    padding: 15px;
+    font-family: 'Pixelify Sans', cursive;
+}
+#linksgroup{
+    text-align:center;
+}
+.links a{
+    text-decoration: none;
+}
+.banner{
+    background-image: url('again2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 620px;
+}
+.bannertext{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+.bannertext h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 4em;
+    font-family: 'Pixelify Sans', cursive;
+}
+.bannertext span{
+    color: rgb(4, 63, 255);
+    font-family: 'Pixelify Sans', cursive;
+}
+.bannertext p{
+    color: aliceblue;
+    font-family: 'Pixelify Sans', cursive;
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: aqua;
+    margin-top: 1em;
+    font-family: 'Pixelify Sans', cursive;
+    color: black;
+}
+.banner a:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: larger;
+    padding: 15px;
+}
